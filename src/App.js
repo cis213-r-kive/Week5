@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Add from './components/Add';
+import Multiply from './components/Multiply';
+import Subtract from './components/Subtract';
+import Divide from './components/Divide';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      <Add />
+      <Subtract />
+      <Multiply />
+      <Divide />
     </div>
   );
 }
